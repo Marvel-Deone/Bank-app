@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+/* h1, h2, h3, h4, h5 {
+    font-family: 'Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji';
+} */
+.about-div {
+    margin-top: 8rem !important;
+    margin-bottom: 2rem;
+}
+.about-tittle {
+    font-size: 36px !important;
+}
+.about-tittle_p {
+    color: #aaa;
+}
+.about>h1 {
+    letter-spacing: 2.5px;
+    word-spacing: 5px;
+}
+.about>p {
+    line-height: 28px;
+}
+.about_content>h3 {
+    word-spacing: 1px;
+    font-weight: 400;
+    line-height: 1.2;
+    font-size: 1.75rem !important;
+}
+.about_content>p {
+    width: 78%;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    font-size: 18px;
+}
+.mission_content {
+    margin-bottom: 10rem;
+}
+.mission-container {
+    border-bottom: 1px solid #aaa;
+}
+.mission_content>p {
+    margin-left: 4.5rem !important;
+    color: gray;
+    line-height: 1.5;
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+.mission_content>h3 {
+    word-spacing: 1px;
+    font-weight: 400;
+    line-height: 1.2;
+    font-size: 1.75rem !important;
+}
+.cards-container {
+    margin-top: 15% !important;
+}
+.cards {
+    padding: 1rem;
+    display: flex;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    outline: 0;
+}
+.card-image {
+    width: 30%;
+}
+.card-title {
+    font-size: 1.4rem;
+    color: #000;
+    margin-bottom: 0.75rem;
+    font-weight: 500;
+}
+.card-p {
+    color: gray;
+    font-size: 1rem;
+    font-weight: lighter;
+    margin-bottom: 1rem;
+    line-height: 2;
+    text-align: center;
+}
+.ul-check {
+    margin-left: 6%;
+}
+.ul-check > li > p{
+    margin-left: 1rem;
+    color: gray;
+    font-size: 17px;
+}
+.ul-check > li > img {
+    width: 1rem;
+    height: 1rem;
+}
+.gallery-container {
+    margin-left: -1rem;
+}
+.cards {
+    flex-wrap: wrap;
+}
+.gallery-container>.cards {
+   justify-content: space-around;
+   position: relative;
+}
+.gallery-container>.cards>.card {
+    margin-top: 2rem;
+    opacity: 1;
+    backface-visibility: hidden;
+    transition: all 400ms ease;
+ }
+ .gallery-container>.cards>.card:hover {
+     transform: scale(1.1);
+    opacity: 0.3;
+ }
+ .service-container {
+     margin-top: 12rem;
+     padding: 8rem;
+ }
+ .service-container>.cards {
+     margin-top: 80px !important;
+     flex-wrap: wrap;
+ }
+ .faq-container {
+    padding: 8rem;
+}
+.faqs_question-container>.cards {
+    justify-content: space-around;
+    position: relative;
+    margin-top: 4rem;
+ }
+ .faqs_question-container>.cards>.card>.card-body>h5 {
+     line-height: 1.5;
+ }
+ .faqs_question-container>.cards>.card>.card-body>p {
+     color: gray;
+     font-size: 17px;
+     font-weight: lighter !important;
+     line-height: 2;
+ }
+ .site-section> .site-section_content {
+     margin-top: 9rem;
+ }
+ .site-section_content-p {
+    color: gray;
+    font-size: 17px;
+    font-weight: lighter !important;
+    line-height: 2;
+ }
+ .contact-container {
+     padding-top: 100px !important;
+     font-size: 16px;
+     font-family: sans-serif;
+ }
+ .contact-input{
+     border-radius: 30px!important;
+ }
+ .contact-form_title {
+     font-weight: normal;
+     font-size: 23px;
+ }
+ .form-group>div>label {
+    font-weight: normal;
+    font-size: 17px;
+    margin-bottom: 1rem;
+ }
+ .btn {
+     padding: 10px 30px;
+     font-size: 16px;
+ }
+ footer {
+     background-color: #343a40;
+     padding: 64px 0;
+    }
+footer>div>.cards {
+    justify-content: space-around;
+}
+.footer-about>.card-body>p {
+        color: rgba(255, 255, 255, 0.7);
+ }
+ .footer-about>.card-body {
+     padding-left: 0;
+ }
+ .footer-links>ul {
+     display: flex;
+     flex-direction: column;
+     font-size: 16px;
+     padding-left: 0;
+ }
+ .footer-links>ul> li> a {
+    color: rgba(255, 255, 255, 0.7);
+ }
+ .card-title {
+     color: #fff;
+     font-weight: 400 !important;
+     font-size: 16px;
+ }
+ .footer-social_media> ul {
+     justify-content: space-around;
+     transform: translateX(-20%);
+ }
+ .footer-social_media> ul > li > a {
+    color: rgba(255, 255, 255, 0.7);
+ }
+ .copyright {
+     border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+    }
+.copyright>p {
+     color: #FFFFFFB3;
+     font-size: 16px;
+     font-family: sans-serif;
+     /* margin: 0 0 16px; */
+     margin-bottom: 1rem !important;
+    }
+
+@media screen and (max-width: 600px) {
+    .about {
+        margin-top: 0 !important;
+    }
+    .about_content>h3  {
+        margin-top: 4rem;
+        text-align: left !important;
+    }
+    .mission_content>h3  {
+        margin-top: 4rem;
+        text-align: left !important;
+    }
+    .about_content>p {
+        text-align: left !important;
+        width: 100%;
+    }
+    .mission_content>p {
+        text-align: left !important;
+        width: 100%;
+        margin-left: 0 !important;
+    }
+    .ul-check {
+        margin-left: 0;
+        padding: 0;
+    }
+    .card {
+        margin-top: 10px;
+        width: 18rem !important;
+    }
+    .my-card {
+        margin-left: 0;
+    }
+    .service-container {
+        margin-top: 70px !important;
+        padding: 2rem 0 0 0;
+ }
+    .service-container> .cards {
+    margin-top: 1rem !important;
+}
+.faqs_question-container>.cards {
+    margin-top: -2rem;
+}
+  .contact-container>div {
+     padding: 0 !important;
+ }
+}
+
+@media (max-width: 768px) {
+    .about {
+        margin-top: 0 !important;
+    }
+    .about_content>h3  {
+        margin-top: 4rem;
+        text-align: left !important;
+    }
+    .about_content>p {
+        text-align: left !important;
+        width: 100%;
+    }
+    .mission_content>p {
+        text-align: left !important;
+        width: 100%;
+        margin-left: 0 !important;
+    }
+    .ul-check {
+        margin-left: 0;
+        padding: 0;
+    }
+    .cards {
+        display: block;
+        margin-left: 0;
+    }
+    .card {
+        margin-top: 25px !important;
+        width: 18rem !important;
+    }
+    .my-card {
+        margin-left: 0;
+    }
+    .service-container {
+        margin-top: 70px !important;
+        padding: 2rem 0 0 0;
+ }
+ .service-container> .cards {
+     margin-top: 1rem !important;
+ }
+ .faqs_question-container>.cards {
+     margin-top: -2rem;
+ }
+  .contact-container>div {
+     padding: 0 !important;
+ }
+} 
